@@ -228,6 +228,16 @@
     visibility: hidden;
   }
 
+  .cross-icon{
+    position:absolute;
+    top:0; right:0;
+    padding-top:18px;
+    padding-right:20px;
+    font-size: 20px;
+    display: none;
+    visibility: hidden;
+  }
+
   #toggle {
     display: none;
   }
@@ -464,7 +474,7 @@
     }
 
     .header__nav li:nth-child(1){
-      padding-top:50px;
+      margin-top:40px;
     }
 
     .header__nav{
@@ -476,6 +486,16 @@
       opacity: 1;
       visibility: visible;
       max-height: 100px;
+    }
+
+    #toggle:checked ~ label .cross-icon{
+      opacity: 1;
+      visibility: visible;
+    }
+
+    #toggle:checked ~ label .ham-icon{
+      opacity: 0;
+      visibility: hidden;
     }
 
     /* Small corrections of about section width*/
