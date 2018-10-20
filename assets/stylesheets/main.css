@@ -200,7 +200,6 @@
   .logo h2{
     padding-top:0;
     padding-bottom:0;
-
   }
 
   .header__nav{
@@ -444,6 +443,11 @@
       float:none;
       display: block;
       margin: 0 auto;
+    }
+
+    .logo {
+      position: absolute;
+      left:0;
     }
 
     .icon-circle{
