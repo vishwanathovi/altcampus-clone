@@ -731,4 +731,8 @@ footer p {
         padding-top: 8px;
     }
 
+    .move-up-btn{
+      visibility: hidden;
+    }
+
 }
