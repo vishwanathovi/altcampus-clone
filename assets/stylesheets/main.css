@@ -138,6 +138,7 @@ table {
 
 html {
     font-size: 16px;
+    scroll-behavior: smooth;
 }
 
 /* CF and Border box - CSS*/
